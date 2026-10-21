@@ -1,0 +1,38 @@
+{
+  "selected_model": "logistic_regression",
+  "selection_metric": "F1 of High-risk class on held-out test set",
+  "models": {
+    "logistic_regression": {
+      "f1_high_risk": 0.7021,
+      "accuracy": 0.72,
+      "macro_f1": 0.719,
+      "confusion_matrix": [
+        [
+          39,
+          12
+        ],
+        [
+          16,
+          33
+        ]
+      ]
+    },
+    "random_forest": {
+      "f1_high_risk": 0.6392,
+      "accuracy": 0.65,
+      "macro_f1": 0.6497,
+      "confusion_matrix": [
+        [
+          34,
+          17
+        ],
+        [
+          18,
+          31
+        ]
+      ]
+    }
+  },
+  "n_train": 400,
+  "n_test": 100
+}
