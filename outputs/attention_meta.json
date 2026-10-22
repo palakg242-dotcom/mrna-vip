@@ -1,0 +1,10 @@
+{
+  "sequence": "ACGUACGUACGGCUA",
+  "seed": 42,
+  "embed_dim": 8,
+  "weight_scale": 0.1,
+  "weights_shape": [
+    15,
+    15
+  ]
+}
