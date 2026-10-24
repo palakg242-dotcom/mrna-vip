@@ -7,9 +7,7 @@ Satisfies FR-2.1 to FR-2.5. Run from the repo root:  python src/attention.py
 import json
 import os
 
-import matplotlib
-matplotlib.use("Agg")
-import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt  # backend is NOT forced, so notebooks can display charts
 import numpy as np
 
 VOCAB = ["A", "C", "G", "U"]
