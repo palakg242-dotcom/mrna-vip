@@ -1,0 +1,8 @@
+timestamp,question,k,latency_seconds,top_chunk_index
+2026-10-25T06:43:10,What temperature should unopened mRNA vials be stored at?,3,0.0104,0
+2026-10-25T06:43:10,Can a vial be refrozen after it has thawed?,3,0.0101,0
+2026-10-25T06:43:10,Which dose needs secondary clinician review?,3,0.0091,1
+2026-10-25T06:43:10,What should be done for a patient aged 65 or older with pre-existing conditions?,3,0.0099,2
+2026-10-25T06:43:10,Within what time must a moderate adverse event be documented?,3,0.0091,2
+2026-10-25T06:43:10,How long should a patient be monitored after the injection?,3,0.0088,2
+2026-10-25T06:43:10,Is the vaccine safe to give during pregnancy?,3,0.0084,1
