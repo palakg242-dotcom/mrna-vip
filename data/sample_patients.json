@@ -1,0 +1,42 @@
+[
+  {
+    "patient_id": "P001",
+    "Age": 58,
+    "Biomarker_Level": 6.5,
+    "Pre_Existing_Conditions": 2,
+    "Vaccine_Dose_mcg": 120,
+    "Prior_Reaction_History": "None"
+  },
+  {
+    "patient_id": "P002",
+    "Age": 34,
+    "Biomarker_Level": 3.0,
+    "Pre_Existing_Conditions": 0,
+    "Vaccine_Dose_mcg": 50,
+    "Prior_Reaction_History": "None"
+  },
+  {
+    "patient_id": "P003",
+    "Age": 71,
+    "Biomarker_Level": 5.5,
+    "Pre_Existing_Conditions": 2,
+    "Vaccine_Dose_mcg": 80,
+    "Prior_Reaction_History": "Mild"
+  },
+  {
+    "patient_id": "P004",
+    "Age": 45,
+    "Biomarker_Level": 8.0,
+    "Pre_Existing_Conditions": 3,
+    "Vaccine_Dose_mcg": 60,
+    "Prior_Reaction_History": "None"
+  },
+  {
+    "patient_id": "P005",
+    "Age": 29,
+    "Biomarker_Level": 4.0,
+    "Pre_Existing_Conditions": 1,
+    "Vaccine_Dose_mcg": 90,
+    "Prior_Reaction_History": "Moderate"
+  }
+]
