@@ -1,0 +1,12 @@
+{
+  "Eligible_For_Vaccine": false,
+  "Recommended_Dose_mg": 0.0,
+  "Reasoning_Steps": [
+    "The risk model predicts a Low reaction risk for this patient.",
+    "A prior moderate reaction requires secondary review."
+  ],
+  "FDA_Safety_Warnings_Cited": [
+    "Prior history of a moderate reaction to an mRNA-based product, even if the reaction has since resolved."
+  ],
+  "Disclaimer": "Student engineering project output - not real clinical guidance."
+}

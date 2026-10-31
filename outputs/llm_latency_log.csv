@@ -1,0 +1,6 @@
+timestamp,patient_id,provider,model,attempts,rag_latency_seconds,llm_latency_seconds
+2026-10-31T22:58:03,P001,mock,rule-based-mock,1,0.2747,0.0028
+2026-10-31T22:58:03,P002,mock,rule-based-mock,1,0.1127,0.0005
+2026-10-31T22:58:03,P003,mock,rule-based-mock,1,0.0273,0.0005
+2026-10-31T22:58:03,P004,mock,rule-based-mock,1,0.0204,0.0006
+2026-10-31T22:58:03,P005,mock,rule-based-mock,1,0.0187,0.0005

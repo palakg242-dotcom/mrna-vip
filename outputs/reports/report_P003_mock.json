@@ -1,0 +1,12 @@
+{
+  "Eligible_For_Vaccine": false,
+  "Recommended_Dose_mg": 0.0,
+  "Reasoning_Steps": [
+    "The risk model predicts a High reaction risk for this patient.",
+    "Age 65 or older with two or more pre-existing conditions is flagged for secondary review."
+  ],
+  "FDA_Safety_Warnings_Cited": [
+    "Ages 65 and older: standard adult dosing range applies; however, patients in this age band with two or more relevant pre-existing conditions should be flagged for secondary clinician review regardless of dose, due to elevated reactogenicity risk observed in this population."
+  ],
+  "Disclaimer": "Student engineering project output - not real clinical guidance."
+}

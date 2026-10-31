@@ -1,0 +1,12 @@
+{
+  "Eligible_For_Vaccine": true,
+  "Recommended_Dose_mg": 0.05,
+  "Reasoning_Steps": [
+    "The risk model predicts a Low reaction risk for this patient.",
+    "No guideline precaution in the retrieved text blocks this dose."
+  ],
+  "FDA_Safety_Warnings_Cited": [
+    "Patients should be monitored for at least 15 minutes following administration, or 30 minutes for patients with a documented history of any allergic reaction."
+  ],
+  "Disclaimer": "Student engineering project output - not real clinical guidance."
+}

@@ -1,0 +1,12 @@
+{
+  "Eligible_For_Vaccine": false,
+  "Recommended_Dose_mg": 0.0,
+  "Reasoning_Steps": [
+    "The risk model predicts a High reaction risk for this patient.",
+    "Three or more pre-existing conditions require secondary review."
+  ],
+  "FDA_Safety_Warnings_Cited": [
+    "Three or more relevant pre-existing conditions at time of screening."
+  ],
+  "Disclaimer": "Student engineering project output - not real clinical guidance."
+}

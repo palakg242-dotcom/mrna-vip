@@ -6,3 +6,8 @@ timestamp,question,k,latency_seconds,top_chunk_index
 2026-10-25T06:43:10,Within what time must a moderate adverse event be documented?,3,0.0091,2
 2026-10-25T06:43:10,How long should a patient be monitored after the injection?,3,0.0088,2
 2026-10-25T06:43:10,Is the vaccine safe to give during pregnancy?,3,0.0084,1
+2026-10-31T22:58:03,"Dosing, precautions and monitoring for a 58-year-old patient with 2 pre-existing conditions, prior reaction history None, elevated biomarker, candidate dose 120 micrograms",3,0.2747,1
+2026-10-31T22:58:03,"Dosing, precautions and monitoring for a 34-year-old patient with 0 pre-existing conditions, prior reaction history None, elevated biomarker, candidate dose 50 micrograms",3,0.1127,1
+2026-10-31T22:58:03,"Dosing, precautions and monitoring for a 71-year-old patient with 2 pre-existing conditions, prior reaction history Mild, elevated biomarker, candidate dose 80 micrograms",3,0.0273,1
+2026-10-31T22:58:03,"Dosing, precautions and monitoring for a 45-year-old patient with 3 pre-existing conditions, prior reaction history None, elevated biomarker, candidate dose 60 micrograms",3,0.0204,1
+2026-10-31T22:58:03,"Dosing, precautions and monitoring for a 29-year-old patient with 1 pre-existing conditions, prior reaction history Moderate, elevated biomarker, candidate dose 90 micrograms",3,0.0187,1

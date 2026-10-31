@@ -1,0 +1,12 @@
+{
+  "Eligible_For_Vaccine": false,
+  "Recommended_Dose_mg": 0.0,
+  "Reasoning_Steps": [
+    "The risk model predicts a High reaction risk for this patient.",
+    "The candidate dose of 120 mcg is above 100 mcg, which needs secondary clinician review."
+  ],
+  "FDA_Safety_Warnings_Cited": [
+    "Doses above 100 micrograms are considered high-reactogenicity doses and require secondary clinician review before administration."
+  ],
+  "Disclaimer": "Student engineering project output - not real clinical guidance."
+}
