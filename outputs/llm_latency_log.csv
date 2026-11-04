@@ -4,3 +4,13 @@ timestamp,patient_id,provider,model,attempts,rag_latency_seconds,llm_latency_sec
 2026-10-31T22:58:03,P003,mock,rule-based-mock,1,0.0273,0.0005
 2026-10-31T22:58:03,P004,mock,rule-based-mock,1,0.0204,0.0006
 2026-10-31T22:58:03,P005,mock,rule-based-mock,1,0.0187,0.0005
+2026-11-04T16:30:14,P001,gemini,gemini-3.8-flash,1,0.0223,77.5415
+2026-11-04T17:23:22,P002,gemini,gemini-3.5-flash-lite,1,0.0263,2.9269
+2026-11-04T17:24:07,P003,gemini,gemini-3.5-flash-lite,1,0.0233,5.3875
+2026-11-04T17:24:26,P004,gemini,gemini-3.5-flash-lite,1,0.0226,4.3875
+2026-11-04T17:24:40,P005,gemini,gemini-3.5-flash-lite,1,0.0198,1.7081
+2026-11-04T17:28:12,P001,gemini,gemini-3.5-flash-lite,1,0.0233,1.611
+2026-11-04T17:29:54,P002,gemini,gemini-3.5-flash-lite,1,0.0246,6.2533
+2026-11-04T17:30:20,P003,gemini,gemini-3.5-flash-lite,1,0.0198,11.9535
+2026-11-04T17:30:36,P004,gemini,gemini-3.5-flash-lite,1,0.027,1.9628
+2026-11-04T17:31:03,P005,gemini,gemini-3.5-flash-lite,1,0.0241,12.5284
