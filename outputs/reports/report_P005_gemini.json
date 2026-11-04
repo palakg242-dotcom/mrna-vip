@@ -1,0 +1,13 @@
+{
+  "Eligible_For_Vaccine": false,
+  "Recommended_Dose_mg": 0.0,
+  "Reasoning_Steps": [
+    "The patient has a prior history of a moderate reaction to an mRNA-based product, which is listed as a precaution requiring secondary review under Section 3.2.",
+    "The guideline excerpts do not contain enough information to clear this precaution confidently without explicit secondary review protocol outcomes not provided in the text.",
+    "Following safety instructions for insufficient information, Eligible_For_Vaccine is set to false and Recommended_Dose_mg is set to 0."
+  ],
+  "FDA_Safety_Warnings_Cited": [
+    "Prior history of a moderate reaction to an mRNA-based product, even if the reaction has since resolved."
+  ],
+  "Disclaimer": "Student engineering project output - not real clinical guidance."
+}

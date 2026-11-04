@@ -1,0 +1,13 @@
+{
+  "Eligible_For_Vaccine": false,
+  "Recommended_Dose_mg": 0.0,
+  "Reasoning_Steps": [
+    "The patient has 3 pre-existing conditions, which triggers Section 3.2 Precautions Requiring Secondary Review ('Three or more relevant pre-existing conditions at time of screening').",
+    "The predicted risk label is High and the guidelines state that precautions requiring secondary review must be met.",
+    "Since the retrieved excerpts do not contain enough information to bypass secondary review or confirm eligibility under high risk with 3 pre-existing conditions, the conservative default is applied and the patient is set as not eligible."
+  ],
+  "FDA_Safety_Warnings_Cited": [
+    "Product exhibiting visible particulates, cloudiness inconsistent with the expected formulation appearance, or any container damage must not be administered and should be reported through the standard product-quality complaint process."
+  ],
+  "Disclaimer": "Student engineering project output - not real clinical guidance."
+}

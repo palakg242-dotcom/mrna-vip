@@ -1,0 +1,15 @@
+{
+  "Eligible_For_Vaccine": true,
+  "Recommended_Dose_mg": 0.05,
+  "Reasoning_Steps": [
+    "The patient is 34 years old, placing them in the 12 to 64 age band with a standard adult dosing range.",
+    "The patient has 0 pre-existing conditions and no prior reaction history.",
+    "The candidate dose is 50 mcg, which converts to 0.05 mg (50 / 1000).",
+    "The retrieved guidelines state that primary-series doses commonly fall between 25 and 100 micrograms, and booster or lower-reactogenicity formulations are frequently dosed between 25 and 50 micrograms.",
+    "The patient's biomarker level is 3, but there are no absolute contraindications or precautions requiring secondary review that apply to this patient."
+  ],
+  "FDA_Safety_Warnings_Cited": [
+    "Product exhibiting visible particulates, cloudiness inconsistent with the expected formulation appearance, or any container damage must not be administered and should be reported through the standard product-quality complaint process."
+  ],
+  "Disclaimer": "Student engineering project output - not real clinical guidance."
+}

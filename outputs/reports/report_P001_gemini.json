@@ -1,0 +1,16 @@
+{
+  "Eligible_For_Vaccine": false,
+  "Recommended_Dose_mg": 0.0,
+  "Reasoning_Steps": [
+    "The patient is 58 years old with 2 pre-existing conditions and a candidate dose of 120 mcg (0.12 mg).",
+    "Section 2.1 states that doses above 100 micrograms are considered high-reactogenicity doses and require secondary clinician review before administration.",
+    "Section 3.2 states that a candidate dose exceeding 100 micrograms combined with an elevated biomarker level requires precautions requiring secondary review.",
+    "Because the retrieved excerpts do not contain enough information to safely clear this high-reactogenicity dose and elevated biomarker combination without secondary review, eligibility is set to false according to conservative rules.",
+    "Recommended dose is set to 0 mg and reasoning is explained."
+  ],
+  "FDA_Safety_Warnings_Cited": [
+    "Doses above 100 micrograms are considered high-reactogenicity doses and require secondary clinician review before administration.",
+    "Candidate dose exceeding 100 micrograms combined with an elevated biomarker level."
+  ],
+  "Disclaimer": "Student engineering project output - not real clinical guidance."
+}

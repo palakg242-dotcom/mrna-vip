@@ -1,0 +1,14 @@
+{
+  "Eligible_For_Vaccine": false,
+  "Recommended_Dose_mg": 0.0,
+  "Reasoning_Steps": [
+    "The patient is 71 years old and has 2 pre-existing conditions, placing them in the 65 and older age band.",
+    "According to Section 2.2, patients in the 65 and older age band with two or more relevant pre-existing conditions should be flagged for secondary clinician review regardless of dose.",
+    "The patient presents with an elevated inflammatory biomarker level (5.5) above the normal reference range, and Section 2.3 states that such patients should have dosing deferred until the biomarker returns to a normal range, or receive the lowest clinically appropriate dose tier with enhanced post-administration monitoring.",
+    "Since the retrieved excerpts do not contain enough information to safely proceed with vaccination given these required secondary reviews and biomarker deferral conditions, the conservative default is applied and Eligible_For_Vaccine is set to false."
+  ],
+  "FDA_Safety_Warnings_Cited": [
+    "Product exhibiting visible particulates, cloudiness inconsistent with the expected formulation appearance, or any container damage must not be administered and should be reported through the standard product-quality complaint process."
+  ],
+  "Disclaimer": "Student engineering project output - not real clinical guidance."
+}
