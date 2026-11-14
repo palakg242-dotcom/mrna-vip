@@ -56,7 +56,7 @@ I implemented scaled dot-product attention in NumPy for a 15-base mRNA sequence 
 
 ## 5. Module 3 Results: Retrieval (RAG)
 
-The guideline document is short (about 940 words), so a sentence-aware chunker that counts tokens (not characters, as the template does) produced **3 chunks of 427, 414 and 348 tokens** with a 50-token overlap. Embeddings come from `all-MiniLM-L6-v2` and are stored in ChromaDB; each query returns the top 3 chunks.
+The guideline document is short (about 750 words), so a sentence-aware chunker that counts tokens (not characters, as the template does) produced **3 chunks of 427, 414 and 348 tokens** with a 50-token overlap. Embeddings come from `all-MiniLM-L6-v2` and are stored in ChromaDB; each query returns the top 3 chunks.
 
 | # | Question | Top-1 chunk | Similarity | Keyword in top-3 | Latency |
 |---|---|---|---|---|---|
@@ -123,7 +123,7 @@ Panel A is the ROC curve of the risk classifier (AUC 0.77). Panel B is the atten
 ## 8. Limitations & Future Work
 
 1. **Tiny knowledge base.** The guidelines produce only 3 chunks, so retrieval metrics are not meaningful, and top-3 returns nearly the whole document. *With more time:* index a larger, real label corpus, evaluate recall@k on a hand-labelled question set, and use hybrid (keyword + embedding) search.
-2. **Retrieval never says "I don't know".** The pregnancy question returned an unrelated chunk (similarity 0.31). *Fix:* add a similarity threshold below which the pipeline reports "not covered" and the LLM is told so explicitly.
+2. **Retrieval never says "I don't know".** The pregnancy question returned an unrelated chunk (similarity 0.31). A simple similarity threshold would not fix this, because the in-scope 65+ question scored 0.32 and the out-of-scope pregnancy question 0.31. *Fix:* tell the LLM to answer only from the retrieved text and to say "not covered" when the excerpts lack the answer (the Week 4 default to "not eligible" partly does this), and evaluate abstention on a larger question set.
 3. **"Elevated biomarker" is undefined.** The guideline says "meaningfully above normal" without a number, so the LLM cannot decide: one model run flagged the gap, while the final P001 report assumed the level was elevated without saying so. *Fix:* obtain the reference range from a clinician or source document and add it to the knowledge base, then re-test.
 4. **Small data, modest model.** 500 patients, five features, AUC 0.77. *Fix:* more data, calibration of probabilities, and tuning with cross-validation; compare against gradient boosting.
 5. **LLM cost, latency and reliability.** Free-tier latency varied from 1.6 s to 77 s and one call failed with a 503. *Fix:* add exponential backoff, cache repeated prompts, and measure latency over many runs (not one patient) before drawing conclusions.
